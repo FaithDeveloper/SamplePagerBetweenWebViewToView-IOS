@@ -27,7 +27,7 @@ class HomePageLowVersionViewController : UIViewController{
         _webview = UIWebView(frame: self.view.frame)
         _webview.mediaPlaybackRequiresUserAction = false
         //        _webview.frame = self.view.frame
-        let address = "http://www.truetruebot.com"
+        let address = "http://faith-developer.tistory.com/"
         let url = URL(string: address)
         let request = URLRequest(url: url!)
         _webview.loadRequest(request)
