@@ -124,5 +124,15 @@ class MainViewController: UIViewController, UIWebViewDelegate, WKUIDelegate, WKN
         hideIndicator()
     }
     
+    @available(iOS 8.0, *)
+    func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
+//        print("schme : \(navigationAction.request.url?.scheme)")
+        if navigationAction.request.url?.scheme == "itms-appss" {
+            //Todo. ex) Utils.openURLToAppStore(urlPath: navigationAction.request.url!.absoluteString)
+            decisionHandler(.cancel)
+        }else{
+            decisionHandler(.allow)
+        }
+    }
 }
 
