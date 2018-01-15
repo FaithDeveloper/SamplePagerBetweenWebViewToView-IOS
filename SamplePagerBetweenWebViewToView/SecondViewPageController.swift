@@ -2,7 +2,7 @@
 //  SecondViewPageController.swift
 //  SamplePagerBetweenWebViewToView
 //
-//  Created by sigong_shin on 2018. 1. 2..
+//  Created by kcs on 2018. 1. 2..
 //  Copyright © 2018년 kcs. All rights reserved.
 //
 
