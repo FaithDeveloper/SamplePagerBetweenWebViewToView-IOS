@@ -2,7 +2,7 @@
 //  HomePageLowVersionViewController.swift
 //  TrueTrue
 //
-//  Created by sigong_shin on 2017. 12. 28..
+//  Created by kcs on 2017. 12. 28..
 //  Copyright © 2017년 sigongmedia. All rights reserved.
 //
 
